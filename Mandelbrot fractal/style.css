@@ -1,0 +1,50 @@
+html,
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #000000;
+}
+
+header {
+    margin: 10px 0
+}
+
+h1 {
+    margin-bottom: 10px
+}
+
+p {
+    margin-top: 0
+}
+
+.wrap {
+    display: flex
+}
+
+#canvas {
+    border: 0 ;
+    position:relative;
+    left:25%;
+    top: 0;
+    width: 50%;
+    height: 50%;
+}
+
+.coord {
+    margin: 0;
+    padding-left: 10px;
+    float: right
+}
+
+.coord li {
+    color: #777;
+    font-size: 12px;
+    list-style: none
+}
+
+.coord li.label {
+    color: #333;
+    font-size: 14px;
+}
