@@ -1575,3 +1575,7 @@ section {
 #footer .credits {
   font-size: 13px;
 }
+
+.fill {
+  object-fit: fill;
+}
