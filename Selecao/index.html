@@ -30,13 +30,6 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: Selecao
-  * Updated: Mar 10 2023 with Bootstrap v5.2.3
-  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -55,6 +48,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Главная</a></li>
           <li><a class="nav-link scrollto" href="#about">Больше о фракталах</a></li>
           <li><a class="nav-link scrollto " href="#gallery">Галерея </a></li>
+          <li><a class="nav-link scrollto " href="#sourse">Ресурсы </a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -172,7 +166,6 @@
     <!-- ======= Fractal Section ======= -->
     <section id="fractal" class="fractal">
       <div class="container">
-
         <ul class="nav nav-tabs row d-flex">
           <li class="nav-item col-3" data-aos="zoom-in">
             <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">
@@ -196,6 +189,12 @@
             <a class="nav-link" data-bs-toggle="tab" href="#tab-3">
               <i class="bi bi-flower3"></i>
               <h4 class="d-none d-lg-block">Множества Жюлиа</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-5">
+              <i class="bi bi-flower3"></i>
+              <h4 class="d-none d-lg-block">Стохастические фракталы</h4>
             </a>
           </li>
         </ul>
@@ -301,8 +300,23 @@
               </div>
             </div>
           </div>
+          <div class="tab-pane" id="tab-5">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Невероятно рандомные фракталы</h3>
+                <p>Третьей крупной разновидностью фракталов являются стохастические фракталы, которые образуются путем
+                  многократных повторений случайных изменений каких-либо параметров. В результате итерационного процесса
+                  получаются объекты очень похожие на природные фракталы — несимметричные деревья, изрезанные лагунами
+                  береговые линии островов и многое другое. Двумерные стохастические фракталы используются
+                  преимущественно
+                  при моделировании рельефа местности и поверхности моря.</p>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/example/1.jpg">
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
     </section><!-- End Fractal Section -->
 
@@ -376,45 +390,63 @@
 
   </main><!-- End #main -->
 
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="container">
-      <h3>Фракталы</h3>
-      <p></p>
-      <div class="copyright">
-        &copy; Вы любите <strong><span>фракталы</span></strong>, а фракталы любят вас!
+  <!--Sourse-->
+  <main id="sourse">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <h3>В работе использовано</h3>
+        <h4>
+          <ul class="list-group list-group-light">
+            <a href="https://github.com/IkarosKappler/levy-c-curve"><li class="list-group-item px-3 border-0"><i class="bi bi-github"></i>https://github.com/IkarosKappler/levy-c-curve</li></a>
+            <a href="https://github.com/hsriat/sierpinski-triangle"><li class="list-group-item px-3 border-0"><i class="bi bi-github"></i>https://github.com/hsriat/sierpinski-triangle</li></a>
+            <a href="https://github.com/foqc/mandelbrot-set"><li class="list-group-item px-3 border-0"><i class="bi bi-github"></i>https://github.com/foqc/mandelbrot-set</li></a>
+            <a href="https://github.com/mikebharris/javascript_mandelbrot_set_and_julia_set_explorer"><li class="list-group-item px-3 border-0"><i class="bi bi-github"></i>https://github.com/mikebharris/javascript_mandelbrot_set_and_julia_set_explorer</li></a>
+          </ul></h4>
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
-        Дизайн взят с <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    </section>
+    
+    <!--End Sourse-->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="container">
+        <h3>Фракталы</h3>
+        <p></p>
+        <div class="copyright">
+          &copy; Вы любите <strong><span>фракталы</span></strong>, а фракталы любят вас!
+        </div>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/selecao-bootstrap-template/ -->
+          Дизайн взят с <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
       </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js" type="text/javascript"></script>
-  <script src="assets/js/triangle.js" type="text/javascript"></script>
-  <script src="/Mandelbrot fractal/mandelbrot_simple.js" type="text/javascript"></script>
-  <script src="/julia set/julia simple.js" type="text/javascript"></script>
-  <script src="/levy-c-curve/main.js"> type = "text/javascript"</script>
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js" type="text/javascript"></script>
+    <script src="assets/js/triangle.js" type="text/javascript"></script>
+    <script src="/Mandelbrot fractal/mandelbrot_simple.js" type="text/javascript"></script>
+    <script src="/julia set/julia simple.js" type="text/javascript"></script>
+    <script src="/levy-c-curve/main.js"> type = "text/javascript"</script>
 
-  <!--Latex-->
-  <script src="https://polyfill.io/v3/polyfill.min.js?fractal=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!--Latex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?fractal=es6"></script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </body>
 
 </html>
