@@ -159,25 +159,25 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
-    let portfolioContainer = select('.gallery-container');
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
+    let galleryContainer = select('.gallery-container');
+    if (galleryContainer) {
+      let galleryIsotope = new Isotope(galleryContainer, {
         itemSelector: '.gallery-item',
       });
 
-      let portfolioFilters = select('#gallery-flters li', true);
+      let galleryFilters = select('#gallery-flters li', true);
 
       on('click', '#gallery-flters li', function(e) {
         e.preventDefault();
-        portfolioFilters.forEach(function(el) {
+        galleryFilters.forEach(function(el) {
           el.classList.remove('filter-active');
         });
         this.classList.add('filter-active');
 
-        portfolioIsotope.arrange({
+        galleryIsotope.arrange({
           filter: this.getAttribute('data-filter')
         });
-        portfolioIsotope.on('arrangeComplete', function() {
+        galleryIsotope.on('arrangeComplete', function() {
           AOS.refresh()
         });
       }, true);
@@ -188,7 +188,7 @@
   /**
    * Initiate gallery lightbox 
    */
-  const portfolioLightbox = GLightbox({
+  const galleryLightbox = GLightbox({
     selector: '.gallery-lightbox'
   });
 
