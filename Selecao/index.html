@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/apple-touch-icon.png" rel="icon">
+  <link href="assets/img/fractal.png" rel="icon">
 
   <!-- Google Fonts -->
   <link
@@ -180,6 +180,12 @@
               <h4 class="d-none d-lg-block">Треугольник Серпинского</h4>
             </a>
           </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-bs-toggle="tab" href="#tab-4">
+              <i class="bi bi-tree"></i>
+              <h4 class="d-none d-lg-block">Кривая Леви</h4>
+            </a>
+          </li>
           <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
             <a class="nav-link" data-bs-toggle="tab" href="#tab-2">
               <i class="bi bi-node-minus"></i>
@@ -204,11 +210,11 @@
                 </p>
                 Методы построения:
                 <ul>
-                  <li><i class="ri-check-double-line"></i> Выкидывание центральных треугольников</li>
-                  <li><i class="ri-check-double-line"></i> Построение в пустом треугольнике треугольника, вершины
+                  <li><i class="bi bi-suit-heart-fill"></i> Выкидывание центральных треугольников</li>
+                  <li><i class="bi bi-suit-heart-fill"></i> Построение в пустом треугольнике треугольника, вершины
                     которого будут лежать на серединах сторон исходной фигуры
                   </li>
-                  <li><i class="ri-check-double-line"></i> Построение в пустом треугольнике треугольника, вершины
+                  <li><i class="bi bi-suit-heart-fill"></i> Построение в пустом треугольнике треугольника, вершины
                     которого будут лежать на серединах сторон исходной фигуры
                   </li>
                 </ul>
@@ -266,6 +272,35 @@
               </div>
             </div>
           </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Геометрический фрактал</h3>
+                <p>
+                  Кривая Леви — фрактал. Впервые изучено итальянецем Эрнесто Чезаро в 1906 году. Однако его самоподобие
+                  и фрактальные свойства исследовал французский математик П. Леви в 1930-х годах.За сходство с буквой
+                  «С», написанной витиеватым шрифтом, ее еще называют С-кривой Леви.</p>
+                <p>Свойства</p>
+                <ul>
+                  <li><i class="bi bi-suit-heart-fill"></i>Кривая Леви нигде не дифференцируема и не спрямляема
+                  </li>
+                  <li><i class="bi bi-suit-heart-fill"></i>На любом интервале кривой Леви есть точки самопересечения
+                  </li>
+                  <li><i class="bi bi-suit-heart-fill"></i>Хаусдорфова размерность кривой Леви приблизительно равна
+                    1,9340.
+                    (Хотя кривая Леви состоит из двух
+                    равных частей, каждая из которых подобна всей кривой с коэффициентом подобия \(1/\sqrt{2}\), из-за
+                    наличия
+                    самопересечений её размерность меньше чем \(2=\ln 2/\ln \sqrt 2\).)
+                  </li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <a href="/levy-c-curve/main.html" target="_blank"> <canvas id="levy-c-curve" width="500"
+                    height="400"></canvas></a>
+              </div>
+            </div>
+          </div>
         </div>
 
       </div>
@@ -293,7 +328,7 @@
             <div class="gallery-info">
               <h4>Береговая линия</h4>
               <p>Неживая природа</p>
-              <a href="assets/img/gallery/gallery-6.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-6.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="Коралл"><i class="bx bx-plus"></i></a>
 
             </div>
@@ -304,7 +339,7 @@
             <div class="gallery-info">
               <h4>Снежинки</h4>
               <p>Неживая природа</p>
-              <a href="assets/img/gallery/gallery-3.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-3.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="Снежинки"><i class="bx bx-plus"></i></a>
 
             </div>
@@ -315,7 +350,7 @@
             <div class="gallery-info">
               <h4>Крона дерева</h4>
               <p>Живая природа</p>
-              <a href="assets/img/gallery/gallery-4.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-4.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="Крона дерева"><i class="bx bx-plus"></i></a>
 
             </div>
@@ -326,7 +361,7 @@
             <div class="gallery-info">
               <h4>Облака</h4>
               <p>Неживая природа</p>
-              <a href="assets/img/gallery/gallery-2.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-2.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
 
             </div>
@@ -337,7 +372,7 @@
             <div class="gallery-info">
               <h4>Папоротник</h4>
               <p>Живая природа</p>
-              <a href="assets/img/gallery/gallery-5.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-5.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="Папоротник"><i class="bx bx-plus"></i></a>
 
             </div>
@@ -348,7 +383,7 @@
             <div class="gallery-info">
               <h4>Коралл</h4>
               <p>Живая природа</p>
-              <a href="assets/img/gallery/gallery-1.jpg" data-gallery="portfolioGallery"
+              <a href="assets/img/gallery/gallery-1.jpg" data-gallery="gallery"
                 class="gallery-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
             </div>
           </div>
@@ -388,10 +423,11 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/triangle.js"></script>
-  <script src="/Mandelbrot fractal/mandelbrot_simple.js"></script>
+  <script src="assets/js/main.js" type="text/javascript"></script>
+  <script src="assets/js/triangle.js" type="text/javascript"></script>
+  <script src="/Mandelbrot fractal/mandelbrot_simple.js" type="text/javascript"></script>
   <script src="/julia set/julia simple.js" type="text/javascript"></script>
+  <script src="/levy-c-curve/main.js"> type = "text/javascript"</script>
 
   <!--Latex-->
   <script src="https://polyfill.io/v3/polyfill.min.js?fractal=es6"></script>
